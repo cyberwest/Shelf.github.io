@@ -6,7 +6,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta id="theme-color" name="theme-color" content="#fff">
 <base target="_blank">
-<title>Media Recorder API Demo</title>
+<title></title>
 <link rel="stylesheet" href="css/main.css" />
 <style>
 a#downloadLink {
@@ -19,17 +19,20 @@ p#data {
 }
 </style>
 </head>
-<body>
+<body id="green">
 <div id="container">
 <div style = "text-align:center;">
 	<video controls autoplay></video><br>
 	<button id="rec" onclick="onBtnRecordClicked()">Record</button>
 	<button id="pauseRes"   onclick="onPauseResumeClicked()" disabled>Pause</button>
 	<button id="stop"  onclick="onBtnStopClicked()" disabled>Stop</button>
+	<button id="swichColor">background</button>
  </div>
 <a id="downloadLink" download="mediarecorder.webm" name="mediarecorder.webm" href></a>
 <p id="data"></p>
 <script src="js/main.js"></script>
 <script src="js/webcam.js"></script>
+<script src="js/jquery.js"></script>
+
 </body>
 </html>
