@@ -4,5 +4,5 @@
 
 
 $("#swichColor").click(function(){
- $("#green").css({'background-color','green'});
+ $("#green").css({'background-color''green'});
  });
