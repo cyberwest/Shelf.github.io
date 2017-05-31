@@ -1,9 +1,5 @@
 
-
-
-
-function() {
-$("#swichColor").click(function(){
- $('#green').css('background-color': 'blue');
- });
-};
+function changeBackground() {
+console.log(changeBackground);
+  document.body.style.backgroundImage = 'url(../backgrounds/60.jpg)';
+}
