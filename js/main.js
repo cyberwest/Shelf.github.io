@@ -7,14 +7,7 @@ console.log(changeBackground50);
 function changeBackground60() {
 console.log(changeBackground60);
   document.body.style.backgroundImage = 'url(http://i.imgur.com/wdPii3I.jpg)';
-    // $(document).ready(function() {
-    // $(".swichVid").click(function() {
-    //   var change = $(this).find('.change').data('video');
-    //
-    //   $("#contentvid").attr('src', change);
-    //
-    //   });
-    // });
+
 }
 
 function changeBackground70() {
@@ -41,3 +34,12 @@ function changeBackground10() {
 console.log(changeBackground10);
   document.body.style.backgroundImage = 'url(http://i.imgur.com/5llP8BE.jpg)';
 }
+
+$(document).ready(function() {
+$(".button60").click(function() {
+  var change = $(this).find('.swichVid').data('video');
+
+  $("#displayVideo").attr('src', change);
+
+  });
+});

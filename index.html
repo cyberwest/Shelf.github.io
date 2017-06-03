@@ -30,16 +30,38 @@ p#data {
 			<button id="stop"  onclick="onBtnStopClicked()" disabled>Stop</button>
 		 </div>
 
+		 <div class="button50">
 		 <button id="swichColor" onclick="changeBackground50()">50's</button>
-		 <button id="swichColor" onclick="changeBackground60()">60's</button>
+	 	</div>
+
+		 <div class="button60">
+		 <button id="swichVid" onclick="changeBackground60()" data-video="https://www.youtube.com/watch?v=fPiw-pHUJ5w&feature=youtu.be">60's</button>
+	 </div>
+
+		 <div class="button70">
 		 <button id="swichColor" onclick="changeBackground70()">70's</button>
+	 </div>
+
+		 <div class="button80">
 		 <button id="swichColor" onclick="changeBackground80()">80's</button>
+	 </div>
+
+		 <div class="button90">
 		 <button id="swichColor" onclick="changeBackground90()">90's</button>
+	 </div>
+
+		 <div class="button00">
 		 <button id="swichColor" onclick="changeBackground00()">00's</button>
+	 </div>
+
+		 <div class="button10">
 		 <button id="swichColor" onclick="changeBackground10()">10's</button>
+	 </div>
 
 
-		 <div id="video">
+		 <div id="video60">
+			 <iframe src="" class="vidPosition" id="displayVideo" style="overflow:hidden" scrolling="no"> </iframe>
+			</div>
 
 
 
@@ -51,6 +73,7 @@ p#data {
 
 		<a id="downloadLink" download="mediarecorder.webm" name="mediarecorder.webm" href></a>
 		<p id="data"></p>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script src="js/main.js"></script>
 		<script src="js/webcam.js"></script>
 		<script src="js/jquery.js"></script>
