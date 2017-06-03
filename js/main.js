@@ -1,5 +1,35 @@
 
-function changeBackground() {
-console.log(changeBackground);
-  document.body.style.backgroundImage = 'url(http://pngimg.com/uploads/beer/beer_PNG2388.png)';
+function changeBackground50() {
+console.log(changeBackground50);
+  document.body.style.backgroundImage = 'url(http://i.imgur.com/707Cibz.jpg)';
+}
+
+function changeBackground60() {
+console.log(changeBackground60);
+  document.body.style.backgroundImage = 'url(http://i.imgur.com/wdPii3I.jpg)';
+}
+
+function changeBackground70() {
+console.log(changeBackground70);
+  document.body.style.backgroundImage = 'url(http://i.imgur.com/YWMNGLa.jpg)';
+}
+
+function changeBackground80() {
+console.log(changeBackground80);
+  document.body.style.backgroundImage = 'url(http://i.imgur.com/nVXMO66.jpg)';
+}
+
+function changeBackground90() {
+console.log(changeBackground90);
+  document.body.style.backgroundImage = 'url(http://i.imgur.com/v1ITUGZ.jpg)';
+}
+
+function changeBackground00() {
+console.log(changeBackground00);
+  document.body.style.backgroundImage = 'url(http://i.imgur.com/Xu9CKpl.jpg)';
+}
+
+function changeBackground10() {
+console.log(changeBackground10);
+  document.body.style.backgroundImage = 'url(http://i.imgur.com/5llP8BE.jpg)';
 }
