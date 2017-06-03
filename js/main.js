@@ -46,7 +46,14 @@ console.log(changeBackground10);
 
 
 $(function showText(){
-    $('#swichVid').click(function(){
+    $('#swichVid60').click(function(){
       $('#sixText').toggleClass('displayText-active');
     });
   });
+
+
+  $(function (){
+      $('#swichVid70').click(function(){
+        $('#sixText').toggleClass('displayText-active');
+      });
+    });
