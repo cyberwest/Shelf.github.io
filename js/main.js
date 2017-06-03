@@ -7,6 +7,14 @@ console.log(changeBackground50);
 function changeBackground60() {
 console.log(changeBackground60);
   document.body.style.backgroundImage = 'url(http://i.imgur.com/wdPii3I.jpg)';
+    // $(document).ready(function() {
+    // $(".swichVid").click(function() {
+    //   var change = $(this).find('.change').data('video');
+    //
+    //   $("#contentvid").attr('src', change);
+    //
+    //   });
+    // });
 }
 
 function changeBackground70() {
