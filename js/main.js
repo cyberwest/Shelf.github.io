@@ -35,11 +35,18 @@ console.log(changeBackground10);
   document.body.style.backgroundImage = 'url(http://i.imgur.com/5llP8BE.jpg)';
 }
 
-$(document).ready(function() {
-$(".button60").click(function() {
-  var change = $(this).find('.swichVid').data('video');
+// $(document).ready(function() {
+// $(".button60").click(function() {
+//   var change = $(this).find('.swichVid').data('video');
+//
+//   $("#displayVideo").attr('src', change);
+//
+//   });
+// });
 
-  $("#displayVideo").attr('src', change);
 
+$(function showText(){
+    $('#swichVid').click(function(){
+      $('#sixText').toggleClass('displayText-active');
+    });
   });
-});
