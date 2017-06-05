@@ -47,7 +47,7 @@ console.log(changeBackground10);
 
 $(function showText(){
     $('#swichVid60').click(function(){
-      $('#sixText').toggleClass('displayText-active');
+      $('#textBox').html('It is working');
     });
   });
 
