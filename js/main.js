@@ -69,12 +69,14 @@ $(function showText(){
   $(function moreText(){
     $('#swichVid80').click(function(){
       $('#textBox').html('It is working again80');
+      $('#filterBox').html('<img src="http://i.imgur.com/YwDxaeq.png" />');
     });
   });
 
   $(function moreText(){
     $('#swichVid90').click(function(){
       $('#textBox').html('It is working again90');
+      $('#filterBox').html('<img src="http://i.imgur.com/YwDxaeq.png" />');
     });
   });
 
