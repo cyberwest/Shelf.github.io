@@ -76,8 +76,9 @@ body {
 
 .diskPossition {
   position: absolute;
-  top: 500px;
-  left: 70px;
+  top: 600px;
+  left: 140px;
+  width: 100%;
 }
 
 
