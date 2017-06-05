@@ -3,6 +3,7 @@ body {
   height: 100%;
   background-image: url(http://i.imgur.com/jq6hq6q.jpg);
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 #data {
