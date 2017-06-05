@@ -74,7 +74,11 @@ body {
 }
 
 
-
+.diskPossition {
+  position: absolute;
+  top: 500px;
+  left: 70px;
+}
 
 
 

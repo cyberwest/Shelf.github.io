@@ -226,7 +226,8 @@ video {
   margin: 10px auto;
   width: 440px;
   height:380px;
-  left: 20%;
+  left: 236px;
+  top: 39px;
 }
 
 @media screen and (max-width: 650px) {
