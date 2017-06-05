@@ -39,11 +39,6 @@ body {
 
 .buttonsDec {
   position: relative;
-  margin: 10px;
+  margin: -6px;
   display: inline-block;
-}
-
-#swichVid50 {
-  position: absolute;
-  left: -100px;
 }
