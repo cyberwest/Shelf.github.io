@@ -36,9 +36,6 @@ body {
   width: 100%;
 }
 
-.displayText-active {
-  left: 30px;
-}
 
 .buttonsDec {
   position: relative;
@@ -55,6 +52,7 @@ body {
   width: 50px;
   height: 50px;
   border: 1px solid black;
+  font-size: 1em;
 }
 
 
