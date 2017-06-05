@@ -53,7 +53,7 @@ $(function showText(){
 
 
   $(function (){
-      $('#swichVid70').click(function(){
-        $('#sevenText').toggleClass('displayText-active');
+      $('#swichVid50').click(function(){
+        $('#textBox').html('It is working again');
       });
     });
