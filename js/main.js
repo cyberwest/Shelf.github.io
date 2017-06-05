@@ -48,6 +48,7 @@ console.log(changeBackground10);
 $(function showText(){
     $('#swichVid50').click(function(){
       $('#textBox').html('It is working');
+      $('#filterBox').html('<img src="http://i.imgur.com/YwDxaeq.png" />');
     });
   });
 
@@ -55,6 +56,7 @@ $(function showText(){
   $(function moreText(){
       $('#swichVid60').click(function(){
         $('#textBox').html('It is working again60');
+        $('#filterBox').html('<img src="http://i.imgur.com/YwDxaeq.png" />');
       });
     });
 
@@ -83,11 +85,13 @@ $(function showText(){
   $(function moreText(){
     $('#swichVid00').click(function(){
       $('#textBox').html('It is working again00');
+      $('#filterBox').html('<img src="http://i.imgur.com/YwDxaeq.png" />');
     });
   });
 
   $(function moreText(){
     $('#swichVid10').click(function(){
       $('#textBox').html('It is working again10');
+      $('#filterBox').html('<img src="http://i.imgur.com/YwDxaeq.png" />');
     });
   });
