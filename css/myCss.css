@@ -81,7 +81,13 @@ body {
   width: 100%;
 }
 
-
+#videoBox {
+  position: absolute;
+  top: 1000px;
+  right: 140px;
+  width: 250px;
+  height: 230px;
+}
 
 
 

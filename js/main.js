@@ -48,7 +48,7 @@ console.log(changeBackground10);
 $(function showText(){
     $('#swichVid50').click(function(){
       $('#textBox').html('It is working');
-      $('#filterBox').html('<img src="http://i.imgur.com/YwDxaeq.png" />');
+      $('#filterBox').html('<video src="https://www.youtube.com/watch?v=EQPcwqPL34I&feature=youtu.be"></video>');
     });
   });
 
@@ -56,14 +56,14 @@ $(function showText(){
   $(function moreText(){
       $('#swichVid60').click(function(){
         $('#textBox').html('It is working again60');
-        $('#filterBox').html('<img src="http://i.imgur.com/YwDxaeq.png" />');
+        // $('#videoBox').html('<img src="http://i.imgur.com/YwDxaeq.png" />');
       });
     });
 
   $(function moreText(){
       $('#swichVid70').click(function(){
         $('#textBox').html('It is working again70');
-        $('#filterBox').html('<img src="http://i.imgur.com/YwDxaeq.png" />');
+        // $('#videoBox').html('<img src="http://i.imgur.com/YwDxaeq.png" />');
 
       });
     });
@@ -71,27 +71,27 @@ $(function showText(){
   $(function moreText(){
     $('#swichVid80').click(function(){
       $('#textBox').html('It is working again80');
-      $('#filterBox').html('<img src="http://i.imgur.com/YwDxaeq.png" />');
+      // $('#videoBox').html('<img src="http://i.imgur.com/YwDxaeq.png" />');
     });
   });
 
   $(function moreText(){
     $('#swichVid90').click(function(){
       $('#textBox').html('It is working again90');
-      $('#filterBox').html('<img src="http://i.imgur.com/YwDxaeq.png" />');
+      // $('#videoBox').html('<img src="http://i.imgur.com/YwDxaeq.png" />');
     });
   });
 
   $(function moreText(){
     $('#swichVid00').click(function(){
       $('#textBox').html('It is working again00');
-      $('#filterBox').html('<img src="http://i.imgur.com/YwDxaeq.png" />');
+      // $('#videoBox').html('<img src="http://i.imgur.com/YwDxaeq.png" />');
     });
   });
 
   $(function moreText(){
     $('#swichVid10').click(function(){
       $('#textBox').html('It is working again10');
-      $('#filterBox').html('<img src="http://i.imgur.com/YwDxaeq.png" />');
+      // $('#videoBox').html('<img src="http://i.imgur.com/YwDxaeq.png" />');
     });
   });
