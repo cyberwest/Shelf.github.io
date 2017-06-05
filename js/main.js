@@ -52,7 +52,7 @@ $(function showText(){
   });
 
 
-  $(function (){
+  $(function moreText(){
       $('#swichVid50').click(function(){
         $('#textBox').html('It is working again');
       });
