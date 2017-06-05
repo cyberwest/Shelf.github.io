@@ -49,10 +49,10 @@ body {
 
 #textBox {
   position: absolute;
-  width: 200px;
-  height: 200px;
-  top: 50px;
-  left: 50px;
+  width: 272px;
+  height: 396px;
+  top: 150px;
+  left: 140px;
   border: 1px solid black;
   font-size: 1em;
 }
