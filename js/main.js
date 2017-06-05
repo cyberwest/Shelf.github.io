@@ -54,6 +54,6 @@ $(function showText(){
 
   $(function (){
       $('#swichVid70').click(function(){
-        $('#sixText').toggleClass('displayText-active');
+        $('#sevenText').toggleClass('displayText-active');
       });
     });

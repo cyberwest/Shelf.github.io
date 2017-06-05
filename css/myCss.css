@@ -28,6 +28,22 @@ body {
       transition: .25s ease;
 }
 
+.container {
+  height: 100%;
+  width: 100%;
+}
+
 .displayText-active {
   left: 30px;
+}
+
+.buttonsDec {
+  position: relative;
+  margin: 10px;
+  display: inline-block;
+}
+
+#swichVid50 {
+  position: absolute;
+  left: -100px;
 }
