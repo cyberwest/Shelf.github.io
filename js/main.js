@@ -46,14 +46,44 @@ console.log(changeBackground10);
 
 
 $(function showText(){
-    $('#swichVid60').click(function(){
+    $('#swichVid50').click(function(){
       $('#textBox').html('It is working');
     });
   });
 
 
   $(function moreText(){
-      $('#swichVid50').click(function(){
-        $('#textBox').html('It is working again');
+      $('#swichVid60').click(function(){
+        $('#textBox').html('It is working again60');
       });
     });
+
+  $(function moreText(){
+      $('#swichVid70').click(function(){
+        $('#textBox').html('It is working again70');
+      });
+    });
+
+  $(function moreText(){
+    $('#swichVid80').click(function(){
+      $('#textBox').html('It is working again80');
+    });
+  });
+
+  $(function moreText(){
+    $('#swichVid90').click(function(){
+      $('#textBox').html('It is working again90');
+    });
+  });
+
+  $(function moreText(){
+    $('#swichVid00').click(function(){
+      $('#textBox').html('It is working again00');
+    });
+  });
+
+  $(function moreText(){
+    $('#swichVid10').click(function(){
+      $('#textBox').html('It is working again10');
+    });
+  });
