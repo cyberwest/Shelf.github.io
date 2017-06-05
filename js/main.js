@@ -61,7 +61,7 @@ $(function showText(){
   $(function moreText(){
       $('#swichVid70').click(function(){
         $('#textBox').html('It is working again70');
-        $('#filterBox').css('background-image: url(http://i.imgur.com/YwDxaeq.png);');
+        $('#filterBox').css('background-image: url(http://imgur.com/YwDxaeq);');
 
       });
     });
