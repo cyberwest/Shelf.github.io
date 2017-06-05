@@ -53,19 +53,19 @@ body {
   height: 200px;
   top: 50px;
   left: 50px;
-  border-radius: 1px solid black;
+  border: 1px solid black;
   font-size: 1em;
 }
 
-.boxText {
+#filterBox {
   position: absolute;
-  width: 200px;
-  height: 200px;
-  top: 50px;
-  left: 50px;
-  border-radius: 1px solid black;
-  font-size: 1em;
+  top: 100px;
+  left: 100px;
+  z-index: 5;
+
 }
+
+
 
 
 
