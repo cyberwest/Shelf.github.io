@@ -65,7 +65,13 @@ body {
 
 }
 
+.shelf {
+  position: absolute;
+  top: 0%;
+  left: 2%;
+  z-index: -1;
 
+}
 
 
 

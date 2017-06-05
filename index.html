@@ -9,64 +9,99 @@
 <title></title>
 <link rel="stylesheet" href="css/main.css" />
 <link rel="stylesheet" href="css/myCss.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/jquery.js"></script>
+<script src="trackingJS/build/tracking-min.js"></script>
+<script src="trackingJS/build/data/face-min.js"></script>
+<script src="trackingJS/node_modules/dat.gui/build/dat.gui.min.js"></script>
+<script src="trackingJS/assets/stats.min.js"></script>
 <style>
-a#downloadLink {
-	display: block;
-	margin: 0 0 1em 0;
-	min-height: 1.2em;
-}
-p#data {
-	min-height: 6em;
+video, canvas {
+	margin-left: 230px;
+	margin-top: 120px;
+	position: absolute;
 }
 </style>
+
 </head>
 <body>
 
-		<div id="container">
-			<div  style = "text-align:center; margin-bottom: 10px;">
-				<div id="filterBox"></div>
-			<video controls autoplay width="440" height="380">  </video><br>
-			<button id="rec" onclick="onBtnRecordClicked()">Record</button> -->
-			<button id="pauseRes"   onclick="onPauseResumeClicked()" disabled>Pause</button>
-			<button id="stop"  onclick="onBtnStopClicked()" disabled>Stop</button>
-		 </div>
+	<div class="demo-frame">
+			<div class="demo-container">
+				<video id="video" width="320px" height="240px" preload autoplay loop muted></video>
+				<canvas id="canvas" width="320px" height="240px"></canvas>
+			</div>
+		</div>
 
 		 <div id="textBox" class="boxText"></div>
 
-		 <!-- <div class="button50"> -->
-		 <img type="button" class="buttonsDec"  src="http://i.imgur.com/ADzpL2m.png" width="110px" height="90px"  id="swichVid50" onclick="changeBackground50() , onBtnRecordClicked()">
-	 	<!-- </div> -->
 
-		 <!-- <div class="button60"> -->
+		 <img type="button" class="buttonsDec"  src="http://i.imgur.com/ADzpL2m.png" width="110px" height="90px"  id="swichVid50" onclick="changeBackground50() , fiveFilter()">
 
-		 <img type="button" class="buttonsDec" src="http://i.imgur.com/e7BHTcO.png" width="110px" height="90px" id="swichVid60" onclick="changeBackground60()" data-video="https://www.youtube.com/watch?v=fPiw-pHUJ5w&feature=youtu.be" />
-	 <!-- </div> -->
 
-		 <!-- <div class="button70"> -->
+ 		 <img type="button" class="buttonsDec" src="http://i.imgur.com/e7BHTcO.png" width="110px" height="90px" id="swichVid60" onclick="changeBackground60() , sixFilter()"  />
 
-		 <img type="button" class="buttonsDec" src="http://i.imgur.com/8hRAH6U.png" width="110px" height="90px"  id="swichVid70" onclick="changeBackground70()" />
-	 <!-- </div> -->
 
-		 <!-- <div class="button80"> -->
+ 		 <img type="button" class="buttonsDec" src="http://i.imgur.com/8hRAH6U.png" width="110px" height="90px"  id="swichVid70" onclick="changeBackground70() , sevenFilter()" />
+
 		 <img type="button" class="buttonsDec" src="http://i.imgur.com/5UqTil4.png" width="110px" height="90px"  id="swichVid80" onclick="changeBackground80()" />
-	 <!-- </div> -->
 
-		 <!-- <div class="button90"> -->
 		 <img type="button" class="buttonsDec" src="http://i.imgur.com/O2InXKg.png" width="110px" height="90px"  id="swichVid90" onclick="changeBackground90()" />
-	 <!-- </div> -->
 
-		 <!-- <div class="button00"> -->
 		 <img type="button" class="buttonsDec" src="http://i.imgur.com/qsNR5WE.png" width="110px" height="90px"  id="swichVid00" onclick="changeBackground00()" />
-	 <!-- </div> -->
 
-		 <!-- <div class="button10"> -->
 		 <img type="button" class="buttonsDec" src="http://i.imgur.com/fxLgWdW.png" width="110px" height="90px"  id="swichVid10" onclick="changeBackground10()" />
-	 <!-- </div> -->
+
+			<img class="shelf" src="http://i.imgur.com/lxbujQ3.png" />
+
+			<script>
+
+					var img = document.createElement('img');
+					img.src = '';
+
+					function fiveFilter() {
+						img.src = 'http://i.imgur.com/8G9Q6FP.png';
+					}
+
+					function sixFilter() {
+						img.src = 'http://i.imgur.com/KyODVhC.png';
+					}
+
+					function sevenFilter() {
+						img.src = 'http://i.imgur.com/YwDxaeq.png';
+					}
+
+			    window.onload = function() {
+			      var video = document.getElementById('webCamFace');
+			      var canvas = document.getElementById('canvas');
+			      var context = canvas.getContext('2d');
+			      var tracker = new tracking.ObjectTracker('face');
+			      tracker.setInitialScale(4.7);
+			      tracker.setStepSize(2);
+			      tracker.setEdgesDensity(0.1);
+			      tracking.track('#video', tracker, { camera: true });
+			      tracker.on('track', function(event) {
+			        context.clearRect(0, 0, canvas.width, canvas.height);
+			        event.data.forEach(function(rect) {
+
+								context.drawImage(img, rect.x -55, rect.y -65, rect.width * 2, rect.height * 2);
 
 
-		 <!-- <div id="video60">
-			 <iframe src="https://www.youtube.com/watch?v=1cgr0z9TXnQ" id="displayVideo" style="overflow:hidden" scrolling="no"> </iframe>
-			</div> -->
+			          // context.strokeStyle = '#a64ceb';
+			          // context.strokeRect(rect.x, rect.y, rect.width, rect.height);
+			          // context.font = '11px Helvetica';
+			          // context.fillStyle = "#fff";
+			          // context.fillText('x: ' + rect.x + 'px', rect.x + rect.width + 5, rect.y + 11);
+			          // context.fillText('y: ' + rect.y + 'px', rect.x + rect.width + 5, rect.y + 22);
+			        });
+			      });
+			      var gui = new dat.GUI();
+			      gui.add(tracker, 'edgesDensity', 0.1, 0.5).step(0.01);
+			      gui.add(tracker, 'initialScale', 1.0, 10.0).step(0.1);
+			      gui.add(tracker, 'stepSize', 1, 5).step(0.1);
+			    };
+			  </script>
 
 
 
@@ -76,12 +111,6 @@ p#data {
 
 
 
-		<a id="downloadLink" download="mediarecorder.webm" name="mediarecorder.webm" href></a>
-		<p id="data"></p>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script src="js/main.js"></script>
-		<script src="js/webcam.js"></script>
-		<script src="js/jquery.js"></script>
 	</div>
 
 </body>
