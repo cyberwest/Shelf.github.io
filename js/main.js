@@ -48,7 +48,7 @@ console.log(changeBackground10);
 $(function showText(){
     $('#swichVid50').click(function(){
       $('#textBox').html('It is working');
-      $('#filterBox').html('<video src="https://www.youtube.com/watch?v=EQPcwqPL34I&feature=youtu.be"></video>');
+      $('#filterBox').html('<iframe src="https://www.youtube.com/watch?v=EQPcwqPL34I&feature=youtu.be"></iframe>');
     });
   });
 
