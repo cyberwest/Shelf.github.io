@@ -59,8 +59,8 @@ body {
 
 #filterBox {
   position: absolute;
-  /*top: 10%;*/
-  left: 85%;
+  top: 70px;
+  right: 514px;
   z-index: 55;
 
 }
