@@ -38,7 +38,7 @@ video, canvas {
 
 	 <div class="diskPossition">
 
-		 <img type="button" class="buttonsDec"  src="http://i.imgur.com/ADzpL2m.png" width="110px" height="90px"  id="swichVid50" onclick="changeBackground50() , fiveFilter()">
+		 <img type="button" class="buttonsDec"  src="http://i.imgur.com/ADzpL2m.png" width="110px" height="90px"  id="swichVid50" onclick="changeBackground50() , fiveFilter()" />
 
  		 <img type="button" class="buttonsDec" src="http://i.imgur.com/e7BHTcO.png" width="110px" height="90px" id="swichVid60" onclick="changeBackground60() , sixFilter()"  />
 
@@ -48,7 +48,7 @@ video, canvas {
 
 		 <img type="button" class="buttonsDec" src="http://i.imgur.com/O2InXKg.png" width="110px" height="90px"  id="swichVid90" onclick="changeBackground90() , nineFilter()" />
 
-		 <img type="button" class="buttonsDec" src="http://i.imgur.com/qsNR5WE.png" width="110px" height="90px"  id="swichVid00" onclick="changeBackground00()" />
+		 <img type="button" class="buttonsDec" src="http://i.imgur.com/qsNR5WE.png" width="110px" height="90px"  id="swichVid00" onclick="changeBackground00() , tenFilter()" />
 
 		 <img type="button" class="buttonsDec" src="http://i.imgur.com/fxLgWdW.png" width="110px" height="90px"  id="swichVid10" onclick="changeBackground10()" />
 
@@ -79,8 +79,14 @@ video, canvas {
 					}
 
 					function nineFilter() {
-						img.src = 'http://i.imgur.com/RCGTZWc.png'
+						img.src = 'http://i.imgur.com/RCGTZWc.png';
 					}
+
+					function tenFilter() {
+						img.src = 'http://i.imgur.com/3YfLTX4.png';
+					}
+
+
 
 			    window.onload = function() {
 			      var video = document.getElementById('webCamFace');
