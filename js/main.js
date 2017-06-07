@@ -56,7 +56,7 @@ $(function showText(){
   $(function moreText(){
       $('#swichVid60').click(function(){
         $('#textBox').html('It is working again60');
-        $('#swichVid60').css({'width': '140px', 'height': '110px' });
+        // $('#swichVid60').css({'width': '140px', 'height': '110px' });
         // $('#videoBox').html('<img src="http://i.imgur.com/YwDxaeq.png" />');
       });
     });
