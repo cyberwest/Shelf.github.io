@@ -60,7 +60,7 @@ console.log(changeBackground10);
 $(function showText(){
     $('#swichVid50').click(function(){
       $('#textBox').html('It is working');
-      $('#videoContainer').html('<iframe src="https://www.youtube.com/embed/rltpH6ck2Kc?rel=0&amp;controls=0&amp;showinfo=0?ecver=2&amp;autoplay=1" width="270" height="210" frameborder="0" ></iframe>');
+      $('#videoContainer').html('<iframe src="https://www.youtube.com/embed/rltpH6ck2Kc?rel=0&amp;controls=0&amp;showinfo=0?ecver=2&amp;autoplay=1" width="235" height="180" frameborder="0" ></iframe>');
     });
   });
 
