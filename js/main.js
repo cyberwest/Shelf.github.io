@@ -35,14 +35,14 @@ console.log(changeBackground10);
   document.body.style.backgroundImage = 'url(http://i.imgur.com/wanHcrS.jpg)';
 }
 
-$(document).ready(function() {
-$("#swichVid50").click(function() {
-  var change = $(this).find('.video50').data('video');
-
-  $("#iconVideos").attr('src', video50);
-  console.log(change);
-  });
-});
+// $(document).ready(function() {
+// $("#swichVid50").click(function() {
+//   var change = $(this).find('.video50').data('video');
+//
+//   $("#iconVideos").attr('src', video50);
+//   console.log(change);
+//   });
+// });
 
 
 $(function showText(){
