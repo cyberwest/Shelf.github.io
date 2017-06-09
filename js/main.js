@@ -37,9 +37,9 @@ console.log(changeBackground10);
 
 $(document).ready(function() {
 $("#swichVid50").click(function() {
-  var change = $(this).find('#swichVid50').data('video');
+  var change = $(this).find('.video50').data('video');
 
-  $("#iconVideos").attr('src', swichVid50);
+  $("#iconVideos").attr('src', video50);
   console.log(change);
   });
 });
