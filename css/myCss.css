@@ -89,6 +89,12 @@ body {
   height: 230px;
 }
 
+#iconVideos {
+  position: absolute;
+  top: 100px;
+  right: 140px;
+}
+
 
 
 
