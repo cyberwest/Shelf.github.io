@@ -60,7 +60,7 @@ console.log(changeBackground10);
 $(function showText(){
     $('#swichVid50').click(function(){
       $('#textBox').html('It is working');
-      $('#videoContainer').html('<iframe src="https://www.youtube.com/embed/rltpH6ck2Kc?rel=0&amp;controls=0&amp;showinfo=0?ecver=2&amp;autoplay=1" width="235" height="180" frameborder="0" ></iframe>');
+      $('#videoContainer').html('<iframe src="https://www.youtube.com/embed/EQPcwqPL34I?rel=0&amp;controls=0&amp;showinfo=0?ecver=2" width="235px" height="180px" frameborder="0" ></iframe>');
     });
   });
 
@@ -68,13 +68,14 @@ $(function showText(){
   $(function moreText(){
       $('#swichVid60').click(function(){
         $('#textBox').html('It is working again60');
-        $('#videoContainer').html('<iframe src="https://www.youtube.com/embed/IJhgZBn-LHg?rel=0&amp;controls=0&amp;showinfo=0?ecver=2&amp;autoplay=1" width="235" height="180" frameborder="0" ></iframe>');
+        $('#videoContainer').html('<iframe src="https://www.youtube.com/embed/fPiw-pHUJ5w?rel=0&amp;controls=0&amp;showinfo=0?ecver=2" width="235px" height="180px" frameborder="0" ></iframe>');
       });
     });
 
   $(function moreText(){
       $('#swichVid70').click(function(){
         $('#textBox').html('It is working again70');
+        $('#videoContainer').html('<iframe src="https://www.youtube.com/embed/AwWk2UUdC-o?rel=0&amp;controls=0&amp;showinfo=0?ecver=2" width="235px" height="180px" frameborder="0"> </iframe>');
         // $('#videoBox').html('<img src="http://i.imgur.com/YwDxaeq.png" />');
 
       });
@@ -83,6 +84,7 @@ $(function showText(){
   $(function moreText(){
     $('#swichVid80').click(function(){
       $('#textBox').html('It is working again80');
+      $('#videoContainer').html('<iframe src="https://www.youtube.com/embed/6CsO1-WVaIM?rel=0&amp;controls=0&amp;showinfo=0?ecver=2" width="235px" height="180px" frameborder="0" ></iframe>');
       // $('#videoBox').html('<img src="http://i.imgur.com/YwDxaeq.png" />');
     });
   });
@@ -90,6 +92,7 @@ $(function showText(){
   $(function moreText(){
     $('#swichVid90').click(function(){
       $('#textBox').html('It is working again90');
+      $('#videoContainer').html('<iframe src="https://www.youtube.com/embed/o4JB5l0bVIA?rel=0&amp;controls=0&amp;showinfo=0?ecver=2" width="235px" height="180px" frameborder="0" ></iframe>');
       // $('#videoBox').html('<img src="http://i.imgur.com/YwDxaeq.png" />');
     });
   });
@@ -97,6 +100,7 @@ $(function showText(){
   $(function moreText(){
     $('#swichVid00').click(function(){
       $('#textBox').html('It is working again00');
+      $('#videoContainer').html('<iframe src="https://www.youtube.com/embed/nnqOq4nbsaU?rel=0&amp;controls=0&amp;showinfo=0?ecver=2" width="235px" height="180px" frameborder="0" ></iframe><');
       // $('#videoBox').html('<img src="http://i.imgur.com/YwDxaeq.png" />');
     });
   });
@@ -104,6 +108,7 @@ $(function showText(){
   $(function moreText(){
     $('#swichVid10').click(function(){
       $('#textBox').html('It is working again10');
+      $('#videoContainer').html('<iframe src="https://www.youtube.com/embed/WFao-AuupMw?rel=0&amp;controls=0&amp;showinfo=0?ecver=2" width="235px" height="180px" frameborder="0" ></iframe>');
       // $('#videoBox').html('<img src="http://i.imgur.com/YwDxaeq.png" />');
     });
   });
