@@ -52,9 +52,9 @@ console.log(changeBackground10);
 //     })
 // });
 
-function videoFive() {
-  $("#iconVideos source").attr("src", "https://www.youtube.com/watch?v=EQPcwqPL34I&feature=youtu.be");
-}
+// function videoFive() {
+//   $("#iconVideos source").attr("src", "https://www.youtube.com/watch?v=EQPcwqPL34I&feature=youtu.be");
+// }
 
 
 $(function showText(){
