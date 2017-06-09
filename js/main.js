@@ -44,6 +44,14 @@ console.log(changeBackground10);
 //   });
 // });
 
+$(document).ready(function(){
+    $("a").click(function(e) {
+        e.preventDefault();
+
+        $("#iconVideos").attr("src", $(this).attr("href"));
+    })
+});
+
 
 $(function showText(){
     $('#swichVid50').click(function(){
