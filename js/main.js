@@ -40,7 +40,7 @@ $("#swichVid50").click(function() {
   var change = $(this).find('#swichVid50').data('video');
 
   $("#iconVideos").attr('src', swichVid50);
-
+  console.log(change);
   });
 });
 
