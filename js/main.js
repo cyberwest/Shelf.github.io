@@ -1,38 +1,38 @@
 
 function changeBackground50() {
 console.log(changeBackground50);
-  document.body.style.backgroundImage = 'url(http://i.imgur.com/707Cibz.jpg)';
+  document.body.style.backgroundImage = 'url(http://i.imgur.com/9eOqLVl.jpg)';
 }
 
 function changeBackground60() {
 console.log(changeBackground60);
-  document.body.style.backgroundImage = 'url(http://i.imgur.com/wdPii3I.jpg)';
+  document.body.style.backgroundImage = 'url(http://i.imgur.com/LzFIqR6.jpg)';
 
 }
 
 function changeBackground70() {
 console.log(changeBackground70);
-  document.body.style.backgroundImage = 'url(http://i.imgur.com/YWMNGLa.jpg)';
+  document.body.style.backgroundImage = 'url(http://i.imgur.com/CC9LQYv.jpg)';
 }
 
 function changeBackground80() {
 console.log(changeBackground80);
-  document.body.style.backgroundImage = 'url(http://i.imgur.com/nVXMO66.jpg)';
+  document.body.style.backgroundImage = 'url(http://i.imgur.com/0AViCCN.jpg)';
 }
 
 function changeBackground90() {
 console.log(changeBackground90);
-  document.body.style.backgroundImage = 'url(http://i.imgur.com/v1ITUGZ.jpg)';
+  document.body.style.backgroundImage = 'url(http://i.imgur.com/pZj9QkJ.jpg)';
 }
 
 function changeBackground00() {
 console.log(changeBackground00);
-  document.body.style.backgroundImage = 'url(http://i.imgur.com/Xu9CKpl.jpg)';
+  document.body.style.backgroundImage = 'url(http://i.imgur.com/dyspkmD.jpg)';
 }
 
 function changeBackground10() {
 console.log(changeBackground10);
-  document.body.style.backgroundImage = 'url(http://i.imgur.com/5llP8BE.jpg)';
+  document.body.style.backgroundImage = 'url(http://i.imgur.com/wanHcrS.jpg)';
 }
 
 // $(document).ready(function() {
