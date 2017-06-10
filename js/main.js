@@ -1,37 +1,37 @@
 
 function changeBackground50() {
-console.log(changeBackground50);
+// console.log(changeBackground50);
   document.body.style.backgroundImage = 'url(http://i.imgur.com/9eOqLVl.jpg)';
 }
 
 function changeBackground60() {
-console.log(changeBackground60);
+// console.log(changeBackground60);
   document.body.style.backgroundImage = 'url(http://i.imgur.com/LzFIqR6.jpg)';
 
 }
 
 function changeBackground70() {
-console.log(changeBackground70);
+// console.log(changeBackground70);
   document.body.style.backgroundImage = 'url(http://i.imgur.com/CC9LQYv.jpg)';
 }
 
 function changeBackground80() {
-console.log(changeBackground80);
+// console.log(changeBackground80);
   document.body.style.backgroundImage = 'url(http://i.imgur.com/0AViCCN.jpg)';
 }
 
 function changeBackground90() {
-console.log(changeBackground90);
+// console.log(changeBackground90);
   document.body.style.backgroundImage = 'url(http://i.imgur.com/pZj9QkJ.jpg)';
 }
 
 function changeBackground00() {
-console.log(changeBackground00);
+// console.log(changeBackground00);
   document.body.style.backgroundImage = 'url(http://i.imgur.com/dyspkmD.jpg)';
 }
 
 function changeBackground10() {
-console.log(changeBackground10);
+// console.log(changeBackground10);
   document.body.style.backgroundImage = 'url(http://i.imgur.com/wanHcrS.jpg)';
 }
 
@@ -62,7 +62,7 @@ $(function showText(){
 
   $(function moreText(){
     $('#swichVid80').click(function(){
-      $('#textBox').html('It is working again80');
+      $('#textBox').html('Simply the best was originally recorded by Bonnie Tyler in 1988. The song was later covered by Tina Turner, and released as a highly successful single the year after. ');
       $('#videoContainer').html('<iframe src="https://www.youtube.com/embed/6CsO1-WVaIM?rel=0&amp;controls=0&amp;showinfo=0?ecver=2&amp;autoplay=1" width="235px" height="180px" frameborder="0" ></iframe>');
       // $('#videoBox').html('<img src="http://i.imgur.com/YwDxaeq.png" />');
     });
@@ -70,7 +70,7 @@ $(function showText(){
 
   $(function moreText(){
     $('#swichVid90').click(function(){
-      $('#textBox').html('It is working again90');
+      $('#textBox').html(' Juicy was released by american hip hop artist The Notorious B.I.G.in 1994, considered by the rolling stone as the one of the greatest hip hop songs it sold over 607,000 copies.');
       $('#videoContainer').html('<iframe src="https://www.youtube.com/embed/o4JB5l0bVIA?rel=0&amp;controls=0&amp;showinfo=0?ecver=2&amp;autoplay=1" width="235px" height="180px" frameborder="0" ></iframe>');
       // $('#videoBox').html('<img src="http://i.imgur.com/YwDxaeq.png" />');
     });
@@ -78,7 +78,7 @@ $(function showText(){
 
   $(function moreText(){
     $('#swichVid00').click(function(){
-      $('#textBox').html('It is working again00');
+      $('#textBox').html('Toxic was released by american singer Britney Spears in 2004, attaining worldwide success and reaching the top-five in 15 countries.');
       $('#videoContainer').html('<iframe src="https://www.youtube.com/embed/nnqOq4nbsaU?rel=0&amp;controls=0&amp;showinfo=0?ecver=2&amp;autoplay=1" width="235px" height="180px" frameborder="0" ></iframe><');
       // $('#videoBox').html('<img src="http://i.imgur.com/YwDxaeq.png" />');
     });
@@ -86,7 +86,7 @@ $(function showText(){
 
   $(function moreText(){
     $('#swichVid10').click(function(){
-      $('#textBox').html('It is working again10');
+      $('#textBox').html('“Gangnam Style” was released by korean musician Psy and has been youtubes most watched video since 2012 , being viewed over 2.8 billion times.');
       $('#videoContainer').html('<iframe src="https://www.youtube.com/embed/WFao-AuupMw?rel=0&amp;controls=0&amp;showinfo=0?ecver=2&amp;autoplay=1" width="235px" height="180px" frameborder="0" ></iframe>');
       // $('#videoBox').html('<img src="http://i.imgur.com/YwDxaeq.png" />');
     });
