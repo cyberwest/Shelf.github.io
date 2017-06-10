@@ -140,6 +140,8 @@ ol {
 }
 
 p {
+  position: relative;
+  top: 20%;
   color: #262525;
   font-weight: 300;
   line-height: 1.6em;
