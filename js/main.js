@@ -53,7 +53,7 @@ $(function showText(){
 
   $(function moreText(){
       $('#swichVid70').click(function(){
-        $('#textBox').html('It is working again70');
+        $('#textBox').html('Stayin Alive was released on'' the 4 February 1978, it remained at the top of the uk charts for a whopping 13 weeks. In the process, it became one of the bands most recognisable tunes, in part because of its place at the beginning of Saturday Night Fever. ');
         $('#videoContainer').html('<iframe src="https://www.youtube.com/embed/AwWk2UUdC-o?rel=0&amp;controls=0&amp;showinfo=0?ecver=2&amp;autoplay=1" width="235px" height="180px" frameborder="0"> </iframe>');
         // $('#videoBox').html('<img src="http://i.imgur.com/YwDxaeq.png" />');
 

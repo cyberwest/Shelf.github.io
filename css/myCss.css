@@ -55,6 +55,7 @@ body {
   left: 140px;
   border: 1px solid black;
   font-size: 1em;
+  text-align: center;
 }
 
 #filterBox {
