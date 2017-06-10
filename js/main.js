@@ -46,7 +46,7 @@ $(function showText(){
 
   $(function moreText(){
       $('#swichVid60').click(function(){
-        $('#textBox').html('<p>Here Comes the Sun" was released by the Beatles in 1969 on album Abbey Road. The song was written at the country house of Eric Clapton, The lyrics reflect the composers relief at both the arrival of spring and the temporary respite he was experiencing from the bands business affairs.</p>');
+        $('#textBox').html('<p>Here Comes the Sun was released by the Beatles in 1969 on album Abbey Road. The song was written at the country house of Eric Clapton, The lyrics reflect the composers relief at both the arrival of spring and the temporary respite he was experiencing from the bands business affairs.</p>');
         $('#videoContainer').html('<iframe src="https://www.youtube.com/embed/fPiw-pHUJ5w?rel=0&amp;controls=0&amp;showinfo=0?ecver=2&amp;autoplay=1" width="235px" height="180px" frameborder="0" ></iframe>');
       });
     });
@@ -86,7 +86,7 @@ $(function showText(){
 
   $(function moreText(){
     $('#swichVid10').click(function(){
-      $('#textBox').html('“<p>Gangnam Style” was released by korean musician Psy and has been youtubes most watched video since 2012 , being viewed over 2.8 billion times.</p>');
+      $('#textBox').html('<p>Gangnam Style was released by korean musician Psy and has been youtubes most watched video since 2012 , being viewed over 2.8 billion times.</p>');
       $('#videoContainer').html('<iframe src="https://www.youtube.com/embed/WFao-AuupMw?rel=0&amp;controls=0&amp;showinfo=0?ecver=2&amp;autoplay=1" width="235px" height="180px" frameborder="0" ></iframe>');
       // $('#videoBox').html('<img src="http://i.imgur.com/YwDxaeq.png" />');
     });
