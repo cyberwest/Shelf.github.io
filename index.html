@@ -98,7 +98,7 @@ video, canvas {
 			    window.onload = function() {
 			      var video = document.getElementById('webCamFace');
 			      var canvas = document.getElementById('canvas');
-			      var context = canvas.getContext('3d');
+			      var context = canvas.getContext('2d');
 			      var tracker = new tracking.ObjectTracker('face');
 			      tracker.setInitialScale(4.7);
 			      tracker.setStepSize(2);
