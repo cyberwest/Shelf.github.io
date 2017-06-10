@@ -38,11 +38,7 @@ console.log(changeBackground10);
 
 $(function showText(){
     $('#swichVid50').click(function(){
-      $('#textBox').html('<p> Hound Dog has been recorded more than 250 times!
-        Elvis Presley version ranked No.19 on in the Greatest Songs of All Time.
-        It’s is also one of the best-selling singles of all time. Presleys version,
-        which sold about 10 million copies globally, was his best-selling song and an emblem of the rock n roll revolution.
-      </p>');
+      $('#textBox').html(' Hound Dog has been recorded more than 250 times! Elvis Presley version ranked No.19 on in the Greatest Songs of All Time. It’s is also one of the best-selling singles of all time. Presleys version, which sold about 10 million copies globally, was his best-selling song and an emblem of the rock n roll revolution.');
       $('#videoContainer').html('<iframe src="https://www.youtube.com/embed/EQPcwqPL34I?rel=0&amp;controls=0&amp;showinfo=0?ecver=2&amp;autoplay=1" width="235px" height="180px" frameborder="0" ></iframe>');
     });
   });
@@ -50,7 +46,7 @@ $(function showText(){
 
   $(function moreText(){
       $('#swichVid60').click(function(){
-        $('#textBox').html('It is working again60');
+        $('#textBox').html('Here Comes the Sun" was released by the Beatles in 1969 on album Abbey Road. The song was written at the country house of Eric Clapton, The lyrics reflect the composers relief at both the arrival of spring and the temporary respite he was experiencing from the bands business affairs.');
         $('#videoContainer').html('<iframe src="https://www.youtube.com/embed/fPiw-pHUJ5w?rel=0&amp;controls=0&amp;showinfo=0?ecver=2&amp;autoplay=1" width="235px" height="180px" frameborder="0" ></iframe>');
       });
     });
