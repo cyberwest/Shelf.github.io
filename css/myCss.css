@@ -104,6 +104,15 @@ body {
   right: 234px;
 }
 
+#otherSongs {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  left: 500px;
+  background-color: white;
+  opacity: .8;
+  
+}
 
 
 
